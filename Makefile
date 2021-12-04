@@ -6,7 +6,7 @@
 #    By: akhalidy <akhalidy@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/12/01 21:38:07 by akhalidy          #+#    #+#              #
-#    Updated: 2019/12/29 15:45:45 by akhalidy         ###   ########.fr        #
+#    Updated: 2020/01/01 05:08:28 by akhalidy         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ CC = gcc
 CFLAGS = -Wall -Werror -Wextra
 
 SRC = ft_printf.c ft_display_d.c ft_display_s.c ft_display_c.c ft_display_u.c \
-		ft_outils.c ft_display_p.c
+		ft_outils.c ft_display_p.c ft_outil1.c ft_outil2.c
 
 OBJ = $(SRC:.c=.o)
 

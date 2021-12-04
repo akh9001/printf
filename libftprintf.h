@@ -6,7 +6,7 @@
 /*   By: akhalidy <akhalidy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/02 12:25:13 by akhalidy          #+#    #+#             */
-/*   Updated: 2019/12/30 21:37:34 by akhalidy         ###   ########.fr       */
+/*   Updated: 2020/01/01 04:58:18 by akhalidy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,15 @@ void				ft_dotexist_p(t_container *v, int base, int len,
 void				ft_dotdontexist_p(t_container *v, int base,
 					int len, long long n);
 int					ft_numlen(long long n);
-void				ft_put_nbr_p(long long n, int base, int uppercase, int sign);
-
+void				ft_put_nbr_p(long long n, int base, int uppercase,
+					int sign);
+void				ft_put_p(long long n, int base);
+void				ft_put_s_precpositive(t_container *v, char *str, int len);
+void				ft_fillwidthstruct(t_container *v, char **fmt,
+					va_list args);
+void				ft_fillzerominustruct(t_container *v, char **fmt);
+int					ft_isdigit(int c);
+void				ft_fillprecstruct(t_container *v, char **fmt, va_list args);
+void				ft_fillwidthstruct(t_container *v, char **fmt, va_list arg);
+int					ft_atoi(const char *str);
 #endif
